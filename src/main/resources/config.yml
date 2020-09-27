@@ -1,0 +1,314 @@
+# 
+# hcf.deathban.150m
+Scoreboard:
+  LINE_COLOUR: '&7'
+  TITLE: '&6&lPhonexMC &7(Season IV)'
+  MINER:
+    MINER_CLASS: '&6&lMiner Class'
+    DIAMONDS: '&bDiamonds'
+    DIAMONDS_COLOUR: '&f'
+  BARD:
+    BARD_CLASS: '&6&lBard Class'
+    ENERGY: ' &eEnergy'
+    ENERGY_COLOUR: '&f'
+    BARD_COOLDOWN: ' &eCooldown'
+    BARD_COOLDOWN_COLOUR: '&f'
+  SOTW_TIMER: '&2&lSOTW'
+  SOTW_COLOUR: '&c'
+  END_EXIT: '100, 100'
+  FOOTER: '&e&ophonexmc.us'
+  KILLS: '&eKills'
+  KILLS_COLOUR: '&f'
+  DEATHS: '&eDeaths'
+  DEATHS_COLOUR: '&f'
+  STREAK: '&eStreak'
+  STREAK_COLOUR: '&f'
+  BALANCE: '&eBalance'
+  BALANCE_COLOUR: '&f'
+  FACTION_TITLE: '&6&lFaction Info'
+  FAC_DTR: '&eDTR'
+  FAC_DTR_COLOUR: '&a'
+  FAC_BALANCE: '&eBalance'
+  FAC_BALANCE_COLOUR: '&2'
+  FAC_ONLINE: '&eOnline'
+  FAC_ONLINE_COLOUR: '&f'
+  FAC_POINTS: '&ePoints'
+  FAC_POINTS_COLOUR: '&f'
+  FAC_REGEN: '&eRegen'
+  FAC_REGEN_COLOUR: '&c'
+StaffMode:
+  STAFFMODE: '&6&lMod-Mode'
+  VANISH: '&eVanished'
+  CHAT: '&eChat'
+  GAMEMODE: '&eGamemode'
+  PLAYERS: '&eOnline'
+  TPS: '&eTicks'
+TABLIST:
+  SERVER-NAME: '&6&lPhonexMC %customonline%'
+  ADDRESS: '&7phonexmc.us'
+  HEADER: '&6&lYou are now playing on KitMap'
+  FOOTER: '&6&lYou are using 1.8 client.'
+  COLOR: '&6'
+FACTION_MESSAGES:
+  CREATE: '&eThe &6%faction% &ehas been &6created &eby &9%player%.'
+  REMOVE: '&eThe &6%faction% &ehas been &6disbanded &eby &9%player%.'
+  RENAME: '&eThe faction has been renamed to &6%newname% &eby &9%player%.'
+  ON_JOIN: '&aMember connected &8� &9%player%.'
+  ON_LEAVE: '&cMember disconnected &8� &9%player%.'
+DISABLED_NAME_FACTIONS:
+  - velt
+  - veltpvp
+  - faithful
+  - faithfulmc
+  - kearpvp
+  - galanthus
+  - galanthusmc
+  - kear
+  - kearpivipi
+  - cave
+  - cavepvp
+  - cavemc
+  - kihar
+  - koru
+  - korurip
+  - holy
+  - holypvp
+  - holyus
+  - holycf
+  - water
+  - waterpvp
+  - watermc
+  - ghostly
+  - ghostlylive
+  - silex
+  - silexpvp
+  - viper
+  - vipermc
+  - overmind
+  - overmindmc
+  - rival
+  - rivalmc
+  - sololegends
+  - sololegendsmc
+  - sunpvp
+  - safepvp
+  - skidder
+  - charther
+  - norxir
+JOIN_MESSAGE:
+  - '&7%line%'
+  - '&eWelcome to &6&lPhonexMC Network'
+  - ''
+  - ' &7� &eStore&7: &fstore.phonexmc.us'
+  - ' &7� &eTeamspeak&7: &fts.phonexmc.us'
+  - ' &7� &eDiscord&7: &fdiscord.io/phonexmc'
+  - ' &7� &eTwitter&7: &ftwitter.com/PhonexNT'
+  - '&7%line%'
+ONLY_VIPS_MESSAGE: '&cThe server is currently in Donator Only. \n &cCan purchase rank at &astore.phonexmc.us'
+STARTING_BALANCE: 500
+CHAT_FORMAT: '%faction%%lunar%%prefix%%kills%%lives%%player% &6%arrow% &r'
+ON_STARTS_COMMANDS:
+  - autorestart schedule 12h
+COMMANDS_EVENT:
+  WIN_KOTH: cr givekey %player% KoTH 2
+  WIN_CONQUEST: cr givekey %player% Conquest 5
+  WIN_CITADEL: cr givekey %player% Citadel 3
+  WIN_SUMO: cr givekey %player% Event 1
+  WIN_FFA: cr givekey %player% Event 2
+  WIN_AXE: cr givekey %player% Event 2
+  WIN_ARCHER: cr givekey %player% Event 2
+  WIN_DTC: cr givekey %player% Event 2
+DEATH_TIME:
+  KIT_MAP: 5m
+  HCF: 30m
+COORDS_COMMAND:
+  - '%line%'
+  - ''
+  - ' &6&lEvent Coordinates'
+  - ''
+  - '&eAll nearly Spawn Zone'
+  - ''
+  - '%line%'
+BLOCK_COMMANDS_IN_COMBAT_MESSAGE: '&cYou cannot execute this command in Combat Tag. &r%remaining%'
+BLOCK_COMMANDS_IN_COMBAT:
+  - /kit gui
+  - /enderchest
+kit-map: true
+death-signs: false
+KillReward:
+  name: Reward
+  number: 1
+beacon-random-names:
+  - '&4&lRisasyTulio4ever'
+  - '&6&lPhonexOld'
+  - '&6&lPhonexIsBack'
+  - '&4&4No TryHarders'
+  - '&9&lI Am Pro'
+  - '&a&lTulon'
+  - '&eTulio estamos al aire'
+  - '&7(&6&lTulio Trivi�o&7)'
+  - '&7(&c&lJuanCarlos Bodoque&7)'
+  - '&7(&c&lCalcet�n &7&lcon &2&lRombos Man&7)'
+  - '&7(&f&lMario Hugo&7)'
+server-info:
+  SERVER-NAME: PhonexMC
+  TEAMSPEAK: ts.phonexmc.us
+  STORE: store.phonexmc.us
+  TWITTER: twitter.com/PhonexNT
+  DISCORD: discord.io/phonexmc
+  WEBSITE: phonexmc.us
+WARZONE_RADIUS: 500
+unbuildable-range: 350
+Place-on-combat: false
+Break-on-combat: false
+found-diamonds: false
+deathban-time: 180
+Brewer-Speed: 2
+Points:
+  loss-per-death: 1
+  win-per-kill: 2
+  win-per-koth: 8
+  win-per-conquest: 25
+DestroyTheCore:
+  Started: '&6&l%destroythecore% &ehas been &astarted &eby &d%playername%&e.'
+  Stopped: '&6&l%destroythecore% &ehas been &cstopped &eby &d%playername%&e.'
+  Destroyed: '&d%playername% &ehas destroyed a piece of &6&l%destroythecore% &7(&ePoints&7: &f%points%&7)'
+  DestroyedCore: '&6&l%destroythecore% &ehas been destroyed by &d%playername%&e.'
+help:
+  - '&7&m-----------------------------------------------------'
+  - '&6&l %SERVER_NAME% Help'
+  - '&r '
+  - '&6&l  World Border'
+  - '  &7* &eOverworld&7: &f%OVERWORLD%'
+  - '  &7* &eNether&7: &f%NETHER%'
+  - '  &7* &eEnd&7: &f%END%'
+  - '&a '
+  - '&6&l  End Portals'
+  - '  &7* &eLocation: &f1000, 1000'
+  - '&a '
+  - '&6&l Support'
+  - '  &7* &eWebsite: &f%WEBSITE%'
+  - '  &7* &eTeamspeak: &f%TEAMSPEAK%'
+  - '  &7* &eStore: &f%STORE%'
+  - '  &7* &eTwitter: &f%TWITTER%'
+  - '  &7* &eDiscord: &f%DISCORD%'
+  - '&7&m-----------------------------------------------------'
+Online-Donator-Broadcast:
+  - ''
+  - '&6&lOnline Phonex Ranks &7� &f%player%'
+  - '&ePurchase rank at &d%store%'
+  - ''
+messages:
+  killstreak-message: '&6%player% &7received &e%itemmessage% &7 from their killstreak of &b%killstreaks%&7.'
+  cobble-enabled: '&aYou can now pick up cobblestone.'
+  cobble-disabled: '&cYou can no longer pick up cobblestone.'
+  revive-message: '&eDonate at &d%store% &eto receive these perks.'
+  deathban-bypass: '&cYou would be death-banned for %reason% but you have permission to bypass.'
+  deathbanned-eotw: '&cDeathbanned for the entirety of the map due to EOTW.Come back for SOTW.'
+  deathbanned-active: '&cYou are currently death-banned for &c&l%reason%&c. &c&l%time% &cremaining.'
+  still-deathbanned: '&cStill death-banned for %time%: &f%reason%&c. &cYou can purchase lives at our store to bypass this.'
+  deathbanned-eotw-entire: '&cYou have been death-banned for entire of EOTW. Check out our website for SOTW information.\nwww.twitter.com/phonexnt'
+  end-cannot-build: '&cYou cannot build in the end.'
+  world-cannot-build: '&cYou cannot build within 300 blocks of spawn.'
+  failed-pearl: '&cYou cannot use Enderpearl into safe-zones, used Enderpearl has been refunded.'
+  teleport-spawn: '&dTeleported to over-world spawn.'
+  cannot-attack: '&cYou cannot attack players in safezones.'
+  in-faction: '&a%player% &eis in your faction.'
+  ally-faction: '&eYou are hurting an ally &7[%allyplayer%]&e.'
+pvp-timer:
+  - '&7%line%'
+  - '&e/pvp enable &7- &fRemoves your PvP Timer.'
+  - '&e/pvp time &7- &fCheck remaining time.'
+  - '&e/lives &7- &fLife & deathban related commands.'
+  - '&7%line%'
+timers:
+  enderpearl-timer: 'Enderpearl'
+  enderpearl-color: '&5'
+  enderpearl-time: 16
+  archer-timer: 'Archer Tag'
+  archer-color: '&c'
+  archer-time: 10
+  notch-apple-timer: 'Gapple'
+  notch-apple-color: '&6'
+  notch-apple-time: 10
+  apple-timer: 'Apple'
+  apple-color: '&e'
+  apple-time: 5
+  pvp-class-warmup-timer: 'Class Warmup'
+  pvp-class-warmup-color: '&b'
+  pvp-class-warmup-time: 5
+  pvptimer-timer: 'PvP Timer'
+  pvptimer-color: '&a'
+  pvptimer-time: 30
+  sale-timer: 'Sale'
+  sale-color: '&e'
+  keyall-timer: 'KeyAll'
+  keyall-color: '&d'
+  opkeyall-timer: 'OP KeyAll'
+  opkeyall-color: '&c'
+  spawntag-timer: 'Combat'
+  spawntag-color: '&4'
+  spawntag-time: 30
+  stuck-timer: 'Stuck'
+  stuck-color: '&4'
+  stuck-time: 60
+  teleport-timer: 'Teleport'
+  teleport-color: '&9'
+  teleport-time: 10
+  event-timer: 'Event'
+  event-color: '&9'
+  logout-timer: 'Logout'
+  logout-color: '&c'
+  logout-time: 30
+  messages:
+    logout-already-started: '&cYour &c&lLogout &ctimer has already started.'
+    logout-started: '&cYour &c&lLogout &ctimer has started.'
+    logout-safely: '&aYou have been safely logged out.'
+    enderpearl-expired: '&eYour &c&lEnderpearl &ecooldown has expired.'
+    enderpearl-item: '&cEnderpearl Cooldown&e: &f%time%'
+    spawn-tagged: '&cYou are now spawn-tagged for %time%.'
+faction-settings:
+  WAIT-FOR-JOIN: 30
+  MAX-PLAYERS: 20
+  MAX-ALLIES: 1
+  show:
+    system-faction:
+    - '&7%LINE%'
+    - '%FACTION%'
+    - '  &eLocation:&f %WORLD%, %X%, %Z%'
+    - '&7%LINE%'
+    road-faction:
+    - '&7%LINE%'
+    - '%FACTION%'
+    - '&7%LINE%'
+  colors:
+    teammate: '&2'
+    ally: '&9'
+    enemy: '&e'
+    safezone: '&a'
+    road: '&c'
+    target: '&d'
+    warzone: '&c'
+    default: '&7'
+    wilderness: '&2'
+    glowstone: '&6'
+enchant-limits:
+  PROTECTION_ENVIRONMENTAL: 1
+  PROTECTION_FIRE: -1
+  SILK_TOUCH: 1
+  ARROW_DAMAGE: 4
+  DURABILITY: 3
+  PROTECTION_EXPLOSIONS: -1
+  LOOT_BONUS_BLOCKS: 3
+  PROTECTION_PROJECTILE: -1
+  OXYGEN: -1
+  WATER_WORKER: -1
+  THORNS: -1
+  DAMAGE_ALL: 1
+  ARROW_KNOCKBACK: -1
+  KNOCKBACK: -1
+  FIRE_ASPECT: -1
+  LOOT_BONUS_MOBS: 3
+  LUCK: 3
+  LURE: 3
+Locations:

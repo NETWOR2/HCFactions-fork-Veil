@@ -1,0 +1,147 @@
+name: HCF
+version: 1.0.0
+authors: [JavaPinq, Risas]
+main: net.bfcode.bfhcf.HCFaction
+softdepend: [ProtocolLib]
+depend: [Base, WorldEdit, ProtocolLib]
+commands:
+  togglehomerange:
+    aliases: ["togglehr"]
+  daily:
+  ability:
+    aliases: ["abilidades", "abilities"]
+  killtheking:
+    aliases: [ktk, king]
+  players:
+  stafflist:
+  destroythecore:
+    aliases: ["dtc"]
+  autofeed:
+  enddragon:
+  host:
+  glowstone:
+  oremountain:
+  keyshop:
+  statsmanager:
+  craft:
+    description: Open your personal crafting table.
+  sale:
+  keyall:
+  opkeyall:
+  fight:
+    description: Fight Command.
+  customenchant:
+    aliases: ["ce"]
+  tournament:
+    aliases: ["tour", "tournaments"]
+  lff:
+    description: Looking for faction.
+  set:
+  spawn:
+    description: Teleport to spawn.
+  lffalerts:
+    description: Toggle looking for faction alerts.
+  death:
+    description: Command for staff members.
+  reclaim:
+    description: Reclaim your items.
+  setclaim:
+    description: Set a player reclaim.
+  teamspeak:
+    aliases: ["ts", "ts3"]
+    description: Give server teamspeak.
+  twitter:
+    aliases: ["tw"]
+    description: Give server twitter.
+  discord:
+    description: Give server discord.
+  website:
+    description: Give server website.
+  savedata:
+    description: Save all data.
+  spawner:
+    description: Give mob spawner.
+  ffa:
+    description: Give all players FFA potion effects.
+  sendcoords:
+    aliases: ["tl"]
+    description: Broadcast your location to your faction members.
+  statreset:
+    description: Reset a players K/D statistics.
+  togglefd:
+    description: Toggle found diamond alerts.
+  focus:
+    description: Focus a player in another faction.
+  endportal:
+    description: Spawn in an endportal.
+  enderchest:
+    aliases: ["ec"]
+    description: Open your personal enderchest.
+  toggleend:
+    aliases: [end]
+    description: Used to close or open the end.
+  stats:
+    description: Checks the staticstics on a player.
+  sotw:
+    description: Start the SOTW Timer.
+  wrench:
+    description: Management of wrench tools.
+  conquest:
+    description: Base Conquest command.
+  economy:
+    aliases: [bal, balance, money, eco]
+    description: Command used to modify the economy.
+  eotw:
+    description: Sets if the server is in End of the World mode.
+  game:
+    aliases: [event]
+    description: Command used to manage minigame events.
+  faction:
+    aliases: [f, fac, team]
+    description: Faction related commands.
+  gopple:
+    description: Command to check remaining OP apple cooldown time.
+    aliases: [goppletimer, goppletime]
+  help:
+    description: Find out more about this server.
+  koth:
+    description: Make or delete KotH arenas.
+  lives:
+    description: Management of lives or deathbans.
+  location:
+    aliases: [loc]
+    description: Check the faction location of a player.
+  logout:
+    aliases: [disconnect]
+    description: Command to safely logout without an NPC spawning.
+  pay:
+    description: Allow players to pay money.
+  pvptimer:
+    aliases: [pvp]
+    description: Enable or disable pvp timer protection.
+  safestop:
+    description: Safely stop the server.
+  servertime:
+    description: Checks the date and time of server.
+  setborder:
+    aliases: [setbordersize]
+    description: Sets the border size of an Environment.
+  coords:
+    description: Shows coordinates of events.
+  staffrevive:
+    description: Revive a deathbanned player.
+  revive:
+    description: Premium perk to revive a player.
+  nether:
+    description: Teleport to nether spawn with a 30 second cooldown
+  timer:
+    description: Command to manage timers.
+  cobble:
+    description: Toggle cobblestone pickup.
+  mapkit:
+    aliases: [viewkit]
+    description: View this maps kit.
+  ores:
+    description: View ore statistics of a player.
+  wrenchgive:
+    description: Give a wrench.

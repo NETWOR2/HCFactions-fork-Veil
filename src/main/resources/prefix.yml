@@ -1,0 +1,48 @@
+################
+# SQL DATABASE #
+################
+Database:
+  State: false
+  IP: ""
+  User: ""
+  Passwd: ""
+  Database: ""
+  Table: ""
+
+Chat: true
+
+Messages:
+  noperms: "&cYou do not have permission to place this prefix!"
+  setprefix: "&aYou have placed the <prefix> &aprefix correctly!"
+  noprefix: "You cannot remove the prefix since you do not have one"
+  onremove: "You have successfully removed your prefix <prefix>"
+
+
+inventory:
+  Removetag:
+    name: "&7&oRemove prefix tag"
+    material: DEAD_BUSH
+    amount: 1
+    data: 0
+    slot: 6
+    state: true
+  Prefix:
+    name: '&7&oPrefix Selector'
+    size: 9
+    prefixs:
+      Gang:
+        material: DEAD_BUSH
+        amount: 1
+        data: 0
+        slot: 1
+        permission: prefix.gang
+        prefix: "&a&oGANG "
+        name: "&7&oPrefix &c&oGang"
+        lore:
+          - '&7&m-----------------'
+          - '&cBuy this prefix on the shop'
+          - '&7&m-----------------'
+        lore2:
+          - '&7&m-----------------'
+          - '&cSelect this prefix'
+          - '&7&m-----------------'

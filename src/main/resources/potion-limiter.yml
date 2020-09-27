@@ -1,0 +1,27 @@
+#Remove '#/' for disabled potion.
+disabled-potions:
+  - 8201  #Strength 3:00.
+  - 8265  #Strength 8:00.
+  - 8233  #Strength II 1:30.
+  - 16393 #Strength Splash 2:15.
+  - 16457 #Strength Splash 6:00.
+  - 16425 #Strength Splash II 1:07.
+  - 8193  #Regeneration 0:45.
+  - 8257  #Regeneration 2:00.
+  - 8225  #Regeneration II 0:22.
+  - 16385 #Regeneration Splash 0:33.
+  - 16449 #Regeneration Splash 1:30.
+  - 16417 #Regeneration Splash II 0:16.
+  - 8232  #Weakness 1:30.
+  - 8264  #Weakness 4:00.
+  - 16424 #Weakness Splash 1:07.
+  - 16456 #Weakness Splash 3:00.
+  - 8268  #Instant Damage.
+  - 8236  #Instant Damage II.
+  - 16460 #Instant Damage Splash.
+  - 16428 #Instant Damage Splash II.
+  - 8237  #Water Breathing 3:00.
+  - 8269  #Water Breathing 8:00.
+  - 16429 #Water Breathing Splash 2:15.
+  - 16461 #Water Breathing Splash 6:00.
+  

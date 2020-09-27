@@ -1,0 +1,9 @@
+messages:
+  already_reclaim: "&cYou cant use this in &l%duration%&c."
+  no_rank: "&cYou need a rank for use this command! &7%store%."
+reclaim_cooldown: 86400
+reclaim:
+  example:
+    commands:
+    - bc &a%player% has reclaim example perks.
+    - cr givekey %player% example 1

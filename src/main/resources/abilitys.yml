@@ -1,0 +1,374 @@
+##################################################
+# VARIABLES                                      #
+# <PLAYER> = Your name.                          #
+# <TARGET> = Target name.                        #
+# <COOLDOWN> = Add time of cooldown in lore.     #
+# <SECONDS> = Seconds of ability.                #
+#                                                #
+# COOLDOWN (1 = 1 Second)                        #
+# EXAMPLE:                                       #
+#  COOLDOWN: 20 (20 Seconds of ability cooldown) #
+##################################################
+#                                                #
+#               ID ITEMS PAGE                    #
+#   https://minecraft-ids.grahamedgecombe.com    #
+#                                                #
+##################################################
+
+COLOR:
+  MAIN: "&2&l"
+  SECONDARY: "&a"
+  
+EGG-SPAWN-CHICKEN: false
+PLAYER-SPAWN-MESSAGE: "&cNo puedes usar <ABILITY> &cen este claim."
+TARGET-SPAWN-MESSAGE: "&cNo puedes usar <ABILITY> &cporque &d<TARGET> &cestá en un claim."
+
+ABILITIES:
+  ANTI-TRAPPER:
+    ENABLE: true
+    GLOW: true
+    ITEM: 352
+    DATA: 0
+    NAME: "&6&lAnti-Trapper"
+    LORE: 
+    - "&7&m-------------------------"
+    - " &cEdit message in config.yml"
+    - " &cCooldown: <COOLDOWN>"
+    - "&7&m-------------------------"
+    ENCHANTMENT:
+    - "LUCK:10"
+    SOUND: "BLAZE_HIT"
+    COOLDOWN: 60
+    COOLDOWN-MESSAGE: "<ANTI-TRAPPER> &ccooldown &c&l<SECONDS> &cseconds!"
+    PLAYER-MESSAGE: "&eYou has been used <ANTI-TRAPPER> &eagainst &4&l<TARGET>&e."
+    TARGET-COOLDOWN: 15
+    TARGET-MESSAGE: "&4&l<PLAYER> &ehas been used <ANTI-TRAPPER> &eagainst you!"
+    TARGET-PLACE-BLOCK: "&cYou can't place blocks &c&l<SECONDS> &cseconds. &7(<ANTI-TRAPPER>&7)"
+    TARGET-BREAK-BLOCK: "&cYou can't break blocks &c&l<SECONDS> &cseconds. &7(<ANTI-TRAPPER>&7)"
+    TARGET-BLOCK-INTERACT: "&cYou can't open <BLOCK> for &c&l<SECONDS> &cseconds. &7(<ANTI-TRAPPER>&7)"
+  COCAINE:
+    ENABLE: true
+    GLOW: true
+    ITEM: 353
+    DATA: 0
+    NAME: "&2&lCocaine"
+    LORE:
+    - "&7&m-------------------------"
+    - " &cEdit message in config.yml"
+    - " &cCooldown: <COOLDOWN>"
+    - "&7&m-------------------------"
+    ENCHANTMENT:
+    - "LUCK:10"
+    SOUND: "ORB_PICKUP"
+    COOLDOWN: 60
+    COOLDOWN-MESSAGE: "<COCAINE> &ccooldown &c&l<SECONDS> &cseconds!"
+    PLAYER-MESSAGE: "&eYou've consumed <COCAINE> &7(Speed 3, Resistance 2, Strength 2)"
+    SPEED:
+      DURATION: 6
+      AMPLIFIER: 3
+    RESISTANCE:
+      DURATION: 6
+      AMPLIFIER: 2
+    STRENGTH:
+      DURATION: 6
+      AMPLIFIER: 2
+  GRAPPLING:
+    ENABLE: true
+    GLOW: true
+    NAME: "&6&lGrappling"
+    LORE: 
+    - "&7&m-------------------------"
+    - " &cEdit message in config.yml"
+    - " &cCooldown: <COOLDOWN>"
+    - "&7&m-------------------------"
+    ENCHANTMENT:
+    - "LUCK:10"
+    SOUND: "ZOMBIE_INFECT"
+    COOLDOWN: 10
+    COOLDOWN-MESSAGE: "<GRAPPLING> &ccooldown &c&l<SECONDS> &cseconds!"
+  NINJA-STAR:
+    ENABLE: true
+    GLOW: true
+    ITEM: 399
+    DATA: 0
+    NAME: "&7&lNinjaStar"
+    LORE: 
+    - "&7&m-------------------------"
+    - " &cEdit message in config.yml"
+    - " &cCooldown: <COOLDOWN>"
+    - "&7&m-------------------------"
+    ENCHANTMENT:
+    - "LUCK:10"
+    SOUND: "ENDERMAN_TELEPORT"
+    COOLDOWN: 60
+    COOLDOWN-MESSAGE: "<NINJA-STAR> &ccooldown &c&l<SECONDS> &cseconds!"
+    PLAYER-MESSAGE: "&eYou've used <NINJA-STAR> &eagainst &4&l<TARGET>&e."
+    TARGET-MESSAGE: "&4&l<PLAYER> &ehas used <NINJA-STAR> &eagainst you!"
+  NO-FALL:
+    ENABLE: true
+    GLOW: true
+    ITEM: 313
+    DATA: 0
+    NAME: "&3&lNoFall"
+    LORE: 
+    - "&7&m-------------------------"
+    - " &cEdit message in config.yml"
+    - "&7&m-------------------------"
+    ENCHANTMENT:
+    - "LUCK:10"
+  POCKET-BARD:
+    ENABLE: true
+    GLOW: true
+    ITEM: 351
+    DATA: 11
+    NAME: "&e&lPocketBard"
+    LORE: 
+    - "&7&m-------------------------"
+    - " &cEdit message in config.yml"
+    - " &cCooldown: <COOLDOWN>"
+    - "&7&m-------------------------"
+    ENCHANTMENT:
+    - "LUCK:10"
+    SOUND: "CAT_MEOW"
+    COOLDOWN: 30
+    COOLDOWN-MESSAGE: "<POCKET-BARD> &ccooldown &c&l<SECONDS> &cseconds!"
+    SPEED:
+      DURATION: 6
+      AMPLIFIER: 3
+      MESSAGE: "&eYou've received a random bard effect &7(Speed <AMPLIFIER>)"
+    STRENGTH:
+      DURATION: 6
+      AMPLIFIER: 2
+      MESSAGE: "&eYou've received a random bard effect &7(Strength <AMPLIFIER>)"
+    RESISTANCE:
+      DURATION: 6
+      AMPLIFIER: 3
+      MESSAGE: "&eYou've received a random bard effect &7(Resistance <AMPLIFIER>)"
+    JUMP-BOOST:
+      DURATION: 6
+      AMPLIFIER: 5
+      MESSAGE: "&eYou've received a random bard effect &7(Jump Boost <AMPLIFIER>)"
+    REGENERATION:
+      DURATION: 6
+      AMPLIFIER: 2
+      MESSAGE: "&eYou've received a random bard effect &7(Regeneration <AMPLIFIER>)"
+    FIRE-RESISTANCE:
+      DURATION: 6
+      AMPLIFIER: 2
+      MESSAGE: "&eYou've received a random bard effect &7(Fire Resistance <AMPLIFIER>)"
+    WITHER:
+      DURATION: 6
+      AMPLIFIER: 2
+      MESSAGE: "&eYou've received a random bard effect &7(Whiter <AMPLIFIER>)"
+  RAW-POTION:
+    ENABLE: true
+    GLOW: true
+    ITEM: 373
+    DATA: 0
+    NAME: "&5&lRawPotion"
+    LORE: 
+    - "&7&m-------------------------"
+    - " &cEdit message in config.yml"
+    - " &cCooldown: <COOLDOWN>"
+    - "&7&m-------------------------"
+    ENCHANTMENT:
+    - "LUCK:10"
+    SOUND: "DRINK"
+    COOLDOWN: 60
+    COOLDOWN-MESSAGE: "<RAW-POTION> &ccooldown &c&l<SECONDS> &cseconds!"
+    PLAYER-MESSAGE: "&eYou've consumed <RAW-POTION> &7(Strength <AMPLIFIER>)"
+    STRENGTH:
+      DURATION: 4
+      AMPLIFIER: 3
+  REFILL:
+    ENABLE: true
+    GLOW: true
+    ITEM: 379
+    DATA: 0
+    NAME: "&4&lRefill"
+    LORE: 
+    - "&7&m-------------------------"
+    - " &cEdit message in config.yml"
+    - " &cCooldown: <COOLDOWN>"
+    - "&7&m-------------------------"
+    ENCHANTMENT:
+    - "LUCK:10"
+    SOUND: "DRINK"
+    COOLDOWN: 120
+    COOLDOWN-MESSAGE: "<REFILL> &ccooldown &c&l<SECONDS> &cseconds!"
+    PLAYER-MESSAGE: "&eYou've used <REFILL> &dSplash Potion of Healing &ehas been added to your inventory!"
+    PLAYER-INV-FULL: "&cYour inventory is full!"
+  ROCKET:
+    ENABLE: true
+    GLOW: true
+    ITEM: 401
+    DATA: 0
+    NAME: "&4&lRocket"
+    LORE: 
+    - "&7&m-------------------------"
+    - " &cEdit message in config.yml"
+    - " &cCooldown: <COOLDOWN>"
+    - "&7&m-------------------------"
+    ENCHANTMENT:
+    - "LUCK:10"
+    SOUND: "ENDERDRAGON_WINGS"
+    COOLDOWN: 20
+    COOLDOWN-MESSAGE: "<ROCKET> &ccooldown &c&l<SECONDS> &cseconds!"
+  SNOWBALL:
+    ENABLE: true
+    GLOW: true
+    ITEM: 332
+    DATA: 0
+    NAME: "&6&lSnowball"
+    LORE: 
+    - "&7&m-------------------------"
+    - " &cEdit message in config.yml"
+    - " &cCooldown: <COOLDOWN>"
+    - "&7&m-------------------------"
+    ENCHANTMENT:
+    - "LUCK:10"
+    COOLDOWN: 10
+    COOLDOWN-MESSAGE: "<SNOWBALL> &ccooldown &c&l<SECONDS> &cseconds!"
+    PLAYER-MESSAGE: "&eYou've damaged &4&l<TARGET> &ewith <SNOWBALL>&e."
+    TARGET-MESSAGE: "&eYou've been damaged by &4&l<PLAYER> &ewith <SNOWBALL>&e."
+  SUPER-AXE:
+    ENABLE: true
+    GLOW: true
+    ITEM: 286
+    DATA: 0
+    NAME: "&c&lSuperAxe"
+    LORE: 
+    - "&7&m-------------------------"
+    - " &cEdit message in config.yml"
+    - " &cCooldown: <COOLDOWN>"
+    - "&7&m-------------------------"
+    ENCHANTMENT:
+    - "LUCK:10"
+    SOUND: "BLAZE_HIT"
+    COOLDOWN: 60
+    COOLDOWN-MESSAGE: "<SUPER-AXE> &ccooldown &c&l<SECONDS> &cseconds!"
+    PLAYER-MESSAGE: "&eYou've used <SUPER-AXE> &eagainst &4&l<TARGET>&e."
+    TARGET-MESSAGE: "&4&l<PLAYER> &ehas used <SUPER-AXE> &eagainst you!"
+    TARGET-INV-FULL: "&c<TARGET> inventory is full!"
+  SWITCHER:
+    ENABLE: true
+    GLOW: true
+    ITEM: 344
+    DATA: 0
+    NAME: "&5&lSwitcher"
+    LORE: 
+    - "&7&m-------------------------"
+    - " &cEdit message in config.yml"
+    - " &cCooldown: <COOLDOWN>"
+    - "&7&m-------------------------"
+    ENCHANTMENT:
+    - "LUCK:10"
+    SOUND: "ENDERMAN_TELEPORT"
+    COOLDOWN: 10
+    COOLDOWN-MESSAGE: "<SWITCHER> &ccooldown &c&l<SECONDS> &cseconds!"
+    PLAYER-MESSAGE: "&eYou've used <SWITCHER> &eand switch position with &4&l<TARGET>"
+    TARGET-MESSAGE: "&eYou've switch position with &4&l<PLAYER> &ebecause he used <SWITCHER>&e."
+  MURASAME:
+    ENABLE: true
+    GLOW: true
+    ITEM: 283
+    DATA: 0
+    NAME: "&d&lMurasame"
+    LORE: 
+    - "&7&m-------------------------"
+    - " &cEdit message in config.yml"
+    - " &cCooldown: <COOLDOWN>"
+    - "&7&m-------------------------"
+    ENCHANTMENT:
+    - "LUCK:10"
+    SOUND: "BLAZE_HIT"
+    COOLDOWN: 60
+    COOLDOWN-MESSAGE: "<MURASAME> &ccooldown &c&l<SECONDS> &cseconds!"
+    PLAYER-MESSAGE: "&eYou've used <MURASAME> &eagainst &4&l<TARGET>&e."
+    TARGET-MESSAGE: "&4&l<PLAYER> &ehas used <MURASAME> &eagainst you!"
+    POISON:
+      DURATION: 6
+      AMPLIFIER: 2
+  ROTATE-STICK:
+    ENABLE: true
+    GLOW: true
+    ITEM: 280
+    DATA: 0
+    NAME: "&3&lRotateStick"
+    LORE: 
+    - "&7&m-------------------------"
+    - " &cEdit message in config.yml"
+    - " &cCooldown: <COOLDOWN>"
+    - "&7&m-------------------------"
+    ENCHANTMENT:
+    - "LUCK:10"
+    SOUND: "BLAZE_HIT"
+    COOLDOWN: 10
+    COOLDOWN-MESSAGE: "<ROTATE-STICK> &ccooldown &c&l<SECONDS> &cseconds!"
+    PLAYER-MESSAGE: "&eYou've used <ROTATE-STICK> &eagainst &4&l<TARGET>&e."
+    TARGET-MESSAGE: "&4&l<PLAYER> &ehas used <ROTATE-STICK> &eagainst you!"
+  BELCH-BOMB:
+    ENABLE: true
+    GLOW: true
+    ITEM: 351
+    DATA: 0
+    NAME: "&7&lBelchBomb"
+    LORE:
+    - "&7&m-------------------------"
+    - " &cEdit message in config.yml"
+    - " &cCooldown: <COOLDOWN>"
+    - "&7&m-------------------------"
+    ENCHANTMENT:
+    - "LUCK:10"
+    SOUND: "ORB_PICKUP"
+    COOLDOWN: 30
+    COOLDOWN-MESSAGE: "<BELCH-BOMB> &ccooldown &c&l<SECONDS> &cseconds!"
+    PLAYER-MESSAGE: "&eYou've used <BELCH-BOMB> &eagainst &4&l<TARGET>&e."
+    TARGET-MESSAGE: "&4&l<PLAYER> &ehas used <BELCH-BOMB> &eagainst you!"
+    RADIUS: 5
+    RADIUS-MESSAGE: "&cNothing near in radius of <RADIUS> blocks."
+    BLINDNESS:
+      DURATION: 6
+      AMPLIFIER: 4
+    SLOWNESS:
+      DURATION: 6
+      AMPLIFIER: 4
+  FREEZE-GUN:
+    ENABLE: true
+    GLOW: true
+    ITEM: 293
+    DATA: 0
+    NAME: "&3&lFreezeGun"
+    LORE:
+    - "&7&m-------------------------"
+    - " &cEdit message in config.yml"
+    - " &cCooldown: <COOLDOWN>"
+    - "&7&m-------------------------"
+    ENCHANTMENT:
+    - "LUCK:10"
+    SOUND: "DIG_SNOW"
+    COOLDOWN: 10
+    COOLDOWN-MESSAGE: "<FREEZE-GUN> &ccooldown &c&l<SECONDS> &cseconds!"
+    PLAYER-MESSAGE: "&eYou've used <FREEZE-GUN> &eagainst &4&l<TARGET>&e."
+    TARGET-MESSAGE: "&4&l<PLAYER> &ehas used <FREEZE-GUN> &eagainst you!"
+    SLOWNESS:
+      DURATION: 6
+      AMPLIFIER: 4
+  THUNDER-AXE:
+    ENABLE: true
+    GLOW: true
+    ITEM: 271
+    DATA: 0
+    NAME: "&c&lThunderAxe"
+    LORE: 
+    - "&7&m-------------------------"
+    - " &cEdit message in config.yml"
+    - " &cCooldown: <COOLDOWN>"
+    - "&7&m-------------------------"
+    ENCHANTMENT:
+    - "LUCK:10"
+    SOUND: "ANVIL_USE"
+    COOLDOWN: 60
+    COOLDOWN-MESSAGE: "<THUNDER-AXE> &ccooldown &c&l<SECONDS> &cseconds!"
+    PLAYER-MESSAGE: "&eYou've used <THUNDER-AXE> &eagainst &4&l<TARGET>&e."
+    TARGET-MESSAGE: "&4&l<PLAYER> &ehas used <THUNDER-AXE> &eagainst you!"

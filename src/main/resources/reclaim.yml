@@ -1,0 +1,13 @@
+Reclaim:
+    famous:
+       commands:
+       - bc &6&l%player% &7claimed their &efamous perks &7using the command &a&l/reclaim
+       - lives give %player% 10
+    Example:
+       commands:
+       - bc &6&l%player% &7claimed their &eExample perks &7using the command &a&l/reclaim
+       - lives give %player% 10
+       - give %player% diamond_sword 1
+
+
+   
